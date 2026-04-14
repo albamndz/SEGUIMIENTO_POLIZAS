@@ -53,7 +53,6 @@ function TablaPolizas({ onEditar }) {
 
   return (
     <div>
-      <h2>Listado de polizas</h2>
 
       <div className="form-eliminar">
         <form onSubmit={eliminarPorFormulario}>
@@ -69,6 +68,8 @@ function TablaPolizas({ onEditar }) {
         </form>
         {mensajeEliminar && <p className="mensaje">{mensajeEliminar}</p>}
       </div>
+
+      <h2>LISTADO DE POLIZAS</h2>
 
       <table>
         <thead>
