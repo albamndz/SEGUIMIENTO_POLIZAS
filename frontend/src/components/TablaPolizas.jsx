@@ -102,10 +102,12 @@ function TablaPolizas({ onEditar }) {
               <td>{p.peso}</td>
               <td>{p.siniestro === 1 ? "Si" : "No"}</td>
               <td>
-                <button onClick={() => onEditar(p)}>Editar</button>
-                <button onClick={() => eliminarPoliza(p.id_poliza)}>
-                  Eliminar
-                </button>
+                <div className="acciones">
+                  <button onClick={() => onEditar(p)}>Editar</button>
+                  <button onClick={() => eliminarPoliza(p.id_poliza)}>
+                    Eliminar
+                  </button>
+                </div>
               </td>
             </tr>
           ))}
