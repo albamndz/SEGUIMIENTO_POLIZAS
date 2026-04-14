@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="app">
       <header>
-        <h1>Gestion de Polizas de Seguro</h1>
+        <h1>GESTIÓN DE POLIZAS DE SEGURO</h1>
         <nav>
           <button onClick={() => setSeccion("tabla")}>Ver polizas</button>
           <button onClick={() => setSeccion("alta")}>Nueva poliza</button>
