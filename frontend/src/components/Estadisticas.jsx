@@ -82,8 +82,8 @@ function Estadisticas() {
           <p>Total de polizas: <strong>{datos.total}</strong></p>
           <p>Con siniestro: <strong>{datos.con_siniestro}</strong> ({datos.porcentaje_con_siniestro}%)</p>
           <p>Sin siniestro: <strong>{datos.sin_siniestro}</strong> ({datos.porcentaje_sin_siniestro}%)</p>
-          <p>Media edad del coche: <strong>{datos.media_edad_coche} anos</strong></p>
-          <p>Media edad del tomador: <strong>{datos.media_edad_tomador} anos</strong></p>
+          <p>Media edad del coche: <strong>{datos.media_edad_coche} años</strong></p>
+          <p>Media edad del tomador: <strong>{datos.media_edad_tomador} años</strong></p>
         </div>
       )}
     </div>
