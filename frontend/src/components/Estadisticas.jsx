@@ -48,7 +48,7 @@ function Estadisticas() {
           <select name="transmision" value={filtros.transmision} onChange={handleChange}>
             <option value="">Todas</option>
             <option value="Manual">Manual</option>
-            <option value="Automatica">Automatica</option>
+            <option value="Automática">Automática</option>
           </select>
         </div>
 
@@ -56,8 +56,8 @@ function Estadisticas() {
           <label>Tipo de motor</label>
           <select name="comb_electrico" value={filtros.comb_electrico} onChange={handleChange}>
             <option value="">Todos</option>
-            <option value="Combustion">Combustion</option>
-            <option value="Electrico">Electrico</option>
+            <option value="Combustión">Combustión</option>
+            <option value="Eléctrico">Eléctrico</option>
           </select>
         </div>
 
