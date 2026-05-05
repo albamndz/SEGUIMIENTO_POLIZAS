@@ -71,7 +71,7 @@ body {
 .nav-seccion {
   font-size: 0.65rem;
   font-weight: 700;
-  color: #444;
+  color: #777;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   padding: 0 0.5rem;
@@ -81,7 +81,7 @@ body {
 .nav-item {
   background: transparent;
   border: none;
-  color: #888;
+  color: #bbb;
   padding: 0.6rem 0.8rem;
   border-radius: 8px;
   font-size: 0.88rem;
