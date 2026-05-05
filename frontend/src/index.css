@@ -316,3 +316,145 @@ tr:hover td {
   font-size: 1rem;
   font-weight: 700;
 }
+
+/* BARRA DE ACCIONES */
+.barra-acciones {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.accion-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  border: 1px solid #e4e6ea;
+  flex: 1;
+  min-width: 260px;
+}
+
+.accion-card h3 {
+  margin-bottom: 0.8rem;
+  font-size: 0.88rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;
+}
+
+.accion-card form {
+  box-shadow: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+
+/* BUSCADOR */
+.buscador {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.buscador input {
+  max-width: 320px;
+  padding: 0.5rem 0.8rem;
+  border: 1.5px solid #e4e6ea;
+  border-radius: 6px;
+  font-size: 0.88rem;
+}
+
+.buscador button {
+  background: #e4e6ea;
+  color: #555;
+  border: none;
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* SIN RESULTADOS */
+.sin-resultados {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+  font-size: 0.9rem;
+  background: white;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}/* BARRA DE ACCIONES */
+.barra-acciones {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.accion-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  border: 1px solid #e4e6ea;
+  flex: 1;
+  min-width: 260px;
+}
+
+.accion-card h3 {
+  margin-bottom: 0.8rem;
+  font-size: 0.88rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;
+}
+
+.accion-card form {
+  box-shadow: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+
+/* BUSCADOR */
+.buscador {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.buscador input {
+  max-width: 320px;
+  padding: 0.5rem 0.8rem;
+  border: 1.5px solid #e4e6ea;
+  border-radius: 6px;
+  font-size: 0.88rem;
+}
+
+.buscador button {
+  background: #e4e6ea;
+  color: #555;
+  border: none;
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* SIN RESULTADOS */
+.sin-resultados {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+  font-size: 0.9rem;
+  background: white;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
