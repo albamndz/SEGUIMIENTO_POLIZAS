@@ -53,10 +53,10 @@ Necesitas tener instalado Node.js en tu maquina.
 Desde la raiz del proyecto ejecuta:
 
 ```bash
-npm run install:all
+npm install
 ```
 
-Esto instalara las dependencias de la raiz, el backend y el frontend automaticamente.
+Esto instalara las dependencias de la raiz automaticamente.
 
 ### 2. Arrancar la aplicacion
 
