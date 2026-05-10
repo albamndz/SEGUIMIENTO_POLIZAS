@@ -53,7 +53,7 @@ Necesitas tener instalado Node.js en tu maquina.
 Desde la raiz del proyecto ejecuta:
 
 ```bash
-npm install
+npm run install:all
 ```
 
 Esto instalara las dependencias de la raiz automaticamente.
